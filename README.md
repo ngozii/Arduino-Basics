@@ -44,11 +44,10 @@ Arduino-Basics/
 ├── 06-Switching of Buzzer/
 │   ├── buzzer_switch.ino
 │   └── circuit_diagram.png
-├── 07-Multiple Buttons Using Analog Pins 1/
+├── 07-Multiple Buttons Using Analog Pins/
 │   ├── multi_button_analog1.ino
-│   └── circuit_diagram.png
-├── 08-Multiple Buttons Using Analog Pins 2/
 │   ├── multi_button_analog2.ino
+│   ├── circuit_diagram 1.png
 │   └── circuit_diagram.png
 └── README.md
 ```
@@ -83,63 +82,63 @@ Digital Thermometer - Temperature monitoring system
 ## 🔌 How to Use
 
 ### Clone the repository
-bashgit clone https://github.com/ngozii/Arduino-Basics.git  
-cd Arduino-Basics
+* bashgit clone https://github.com/ngozii/Arduino-Basics.git  
+* cd Arduino-Basics
 
 ### Choose a project
 
-Navigate to any project folder  
-Open the .ino file in Arduino IDE  
-Follow the circuit diagram to wire your components  
+* Navigate to any project folder  
+* Open the .ino file in Arduino IDE  
+* Follow the circuit diagram to wire your components  
 
 
 ### Upload and test
 
-Connect your Arduino to your computer  
-Select your board and port in Arduino IDE  
-Upload the code and test your circuit  
+* Connect your Arduino to your computer  
+* Select your board and port in Arduino IDE  
+* Upload the code and test your circuit  
 
 
 
 ## 📖 Learning Path
-For beginners, we recommend following this order:
+* For beginners, we recommend following this order:
 
-Start with Blink - Learn the basics of Arduino programming  
-LED Control - Understand digital outputs  
-Button Input - Learn about digital inputs  
-Potentiometer - Explore analog inputs  
-Serial Communication - Debug and monitor your projects  
-Temperature Sensor - Work with analog sensors  
-LCD Display - Learn to display information  
-Traffic Light - Apply everything in a practical project  
+  * Start with Blinking LED – Learn the basics of Arduino programming  
+  * Interfacing Single RGB LED – Understand digital outputs  
+  * Light Sensing – Learn about analog inputs using an LDR  
+  * Manual LED Fading – Explore analog input and LED brightness control with a potentiometer  
+  * Button Activation System – Learn about digital inputs with push buttons  
+  * Switching of Buzzer – Trigger sound output using a digital input  
+  * Multiple Buttons Using Analog Pins 1 – Read multiple button inputs from one analog pin  
+  * Multiple Buttons Using Analog Pins 2 – Extend multi-button reading using a second analog pin  
 
 ## 🛠️ Component Guide
 ### Essential Components
 
-LEDs - Light Emitting Diodes for visual output  
-Resistors - Current limiting and voltage division  
-Push Buttons - Digital input devices  
-Potentiometers - Variable resistors for analog input  
-Breadboard - Solderless circuit construction  
+* LEDs - Light Emitting Diodes for visual output  
+* Resistors - Current limiting and voltage division  
+* Push Buttons - Digital input devices  
+* Potentiometers - Variable resistors for analog input  
+* Breadboard - Solderless circuit construction  
 
 ### Common Sensors
 
-Temperature Sensor (LM35) - Analog temperature measurement  
-Ultrasonic Sensor (HC-SR04) - Distance measurement  
-Light Sensor (LDR) - Light intensity detection  
+* Temperature Sensor (LM35) - Analog temperature measurement  
+* Ultrasonic Sensor (HC-SR04) - Distance measurement  
+* Light Sensor (LDR) - Light intensity detection  
 
 ## 🔍 Troubleshooting
-### Common Issues
+* ### Common Issues
 
-Code won't upload: Check board selection and port  
-Circuit doesn't work: Verify all connections match the diagram  
-Unexpected behavior: Check power supply and component values  
-Serial Monitor blank: Ensure correct baud rate  
+  * Code won't upload: Check board selection and port  
+  * Circuit doesn't work: Verify all connections match the diagram  
+  * Unexpected behavior: Check power supply and component values  
+  * Serial Monitor blank: Ensure correct baud rate  
 
-### Getting Help
+* ### Getting Help
 
-Use Arduino IDE's built-in examples for reference  
-Visit the Arduino Forum for community support  
+  * Use Arduino IDE's built-in examples for reference  
+  * Visit the Arduino Forum for community support  
 
 ## 📚 Additional Resources
 ### Documentation
